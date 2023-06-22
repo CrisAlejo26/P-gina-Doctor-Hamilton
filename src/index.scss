@@ -1,0 +1,17 @@
+/* abstracts */
+@use './sass/abstracts/variables';
+@use './sass/abstracts/mixins';
+/* base */
+@use './sass/base/base';
+@use './sass/base/resets';
+@import './sass/abstracts/variables';
+
+/* Navegación*/
+
+.forms{
+    position: absolute;
+    width: 60%;
+    height: 700px;
+    border-radius: 0% 27% 42% 58% / 10% 67% 33% 21%;
+    background-color: $color-blue
+}
