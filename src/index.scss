@@ -1,6 +1,7 @@
 /* abstracts */
 @use './sass/abstracts/variables';
 @use './sass/abstracts/mixins';
+
 /* base */
 @use './sass/base/base';
 @use './sass/base/resets';
@@ -8,10 +9,56 @@
 
 /* Navegación*/
 
-.forms{
+.container_nav {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.forms {
     position: absolute;
-    width: 60%;
-    height: 700px;
-    border-radius: 0% 27% 42% 58% / 10% 67% 33% 21%;
-    background-color: $color-blue
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 45rem;
+    background-color: $color-blue;
+    clip-path: ellipse(75% 60% at 10% 30%);
+    z-index: 1;
+}
+
+.forms_2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30%;
+    height: 30vh;
+    color: $color-orange;
+    z-index: 1;
+}
+
+.nav {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    width: 80%;
+    margin: 1rem auto;
+    justify-content: space-between;
+}
+
+.nav_hamilton {
+    font-weight: $font-inter-bold;
+    color: $color-white;
+}
+
+.nav_a {
+    font-weight: $font-inter-bold;
+}
+.nav_a_white {
+    font-weight: $font-inter-bold;
+    color: $color-white;
 }
