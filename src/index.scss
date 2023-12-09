@@ -650,7 +650,7 @@
     }
 
     .consulting_subtitle {
-        font-size: 1rem;
+        font-size: .8rem;
     }
 
     .consulting_item {
@@ -658,7 +658,7 @@
     }
 
     .consulting_item_text {
-        font-size: 1rem;
+        font-size: .8rem;
     }
 
     .consulting_recuadro {
@@ -723,7 +723,7 @@
         left: 8%;
         border-radius: .3rem;
         rotate: 10deg;
-        bottom: 50rem;
+        bottom: 52rem;
     }
 
     /* FOOTER */
@@ -786,6 +786,22 @@
         border-radius: .5rem;
         rotate: 10deg;
         bottom: 35rem;
+    }
+
+    .container_images_containerItem_text {
+        font-size: .8rem;
+    }
+
+    .recuadro_five {
+        position: relative;
+        background-color: $color-orange;
+        width: 14rem;
+        height: 10rem;
+        z-index: 5;
+        left: -1.7%;
+        bottom: 3rem;
+        border-radius: 1.2rem;
+        rotate: 12deg;
     }
 
 }

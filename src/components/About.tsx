@@ -14,19 +14,19 @@ of skills and knowledge to treat a variety of diseases and conditions.</p>
             <div className='container_images'>
                 <div className='container_images_containerItem'>
                     <img className='container_images_img' src={ vacuna } alt="Vacunas especializadas para tratamientos de la salud" />
-                    <h4>Vaccination</h4>
+                    <h4 className='container_images_containerItem_text'>Vaccination</h4>
                 </div>
                 <div className='container_images_containerItem'>
                     <img className='container_images_img' src={ fonoculo } alt="Vacunas especializadas para tratamientos de la salud" />
-                    <h4>Standard eye exam</h4>
+                    <h4 className='container_images_containerItem_text'>Standard eye exam</h4>
                 </div>
                 <div className='container_images_containerItem'>
                     <img className='container_images_img' src={ heard } alt="Vacunas especializadas para tratamientos de la salud" />
-                    <h4>Electrocardiograms</h4>
+                    <h4 className='container_images_containerItem_text'>Electrocardiograms</h4>
                 </div>
                 <div className='container_images_containerItem'>
                     <img className='container_images_img' src={ ambulance } alt="Vacunas especializadas para tratamientos de la salud" />
-                    <h4>Ambulance Service</h4>
+                    <h4 className='container_images_containerItem_text'>Ambulance Service</h4>
                 </div>
             </div>
         </div>
